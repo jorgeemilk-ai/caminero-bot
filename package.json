@@ -1,0 +1,19 @@
+{
+  "name": "trading-bot-v84",
+  "version": "8.4.0",
+  "description": "BTC Liquidity + Fast Sweep + Dual CVD + Altcoin Basket - OBSERVER MODE",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "license": "PRIVATE"
+}
